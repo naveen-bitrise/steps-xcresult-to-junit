@@ -52,7 +52,7 @@ func main() {
 
 	// Convert JSON to JUnit XML
 	log.Infof("Converting JSON to JUnit XML...")
-	log.Infof("JSON data: %s", string(jsonData))
+	//log.Infof("JSON data: %s", string(jsonData))
 	junitXML, err := ConvertXCResultJSONToJUnitXML(jsonData)
 	if err != nil {
 		failf("Failed to convert JSON to JUnit XML: %s", err)
