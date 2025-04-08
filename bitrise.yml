@@ -1,0 +1,12 @@
+format_version: 11
+default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
+
+workflows:
+  test:
+    steps:
+    - path::./:
+        inputs:
+        - xcresult_path: "./test/Greenlight_Staging.xcresult"
+        - output_dir: "./test/output"
+        - junit_filename: "junit_greenlight_2.xml"
+        - verbose: "yes"
