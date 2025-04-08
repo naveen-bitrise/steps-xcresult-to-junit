@@ -11,9 +11,9 @@ description: |
   - Enabling test result visualization in CI/CD systems that support JUnit XML
   - Processing test results for custom reporting needs
 
-website: https://github.com/naveen-bitrise/bitrise-step-xcresult-to-junit
-source_code_url: https://github.com/naveen-bitrise/bitrise-step-xcresult-to-junit
-support_url: https://github.com/naveen-bitrise/bitrise-step-xcresult-to-junit/issues
+website: https://github.com/naveen-bitrise/steps-xcresult-to-junit
+source_code_url: https://github.com/naveen-bitrise/steps-xcresult-to-junit
+support_url: https://github.com/naveen-bitrise/steps-xcresult-to-junit/issues
 
 project_type_tags:
   - ios
