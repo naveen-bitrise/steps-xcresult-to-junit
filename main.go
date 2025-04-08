@@ -66,9 +66,9 @@ func main() {
 	}
 
 	// Export output
-	/*if err := exportOutput("XCRESULT_TO_JUNIT_OUTPUT_PATH", outputPath); err != nil {
+	if err := exportOutput("XCRESULT_TO_JUNIT_OUTPUT_PATH", outputPath); err != nil {
 		failf("Failed to export output: %s", err)
-	}*/
+	}
 
 	log.Donef("XCResult successfully converted to JUnit XML")
 }
